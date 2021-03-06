@@ -9,12 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lessons</artifactId>
+    <artifactId>training-service</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>lessons-api</module>
-        <module>lessons-core</module>
+        <module>training-api</module>
+        <module>training-core</module>
     </modules>
 
 
