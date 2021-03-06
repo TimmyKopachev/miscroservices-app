@@ -11,7 +11,9 @@
 
     <artifactId>training</artifactId>
     <packaging>pom</packaging>
+
     <modules>
+        <module>training-api</module>
         <module>training-core</module>
     </modules>
 

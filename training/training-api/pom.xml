@@ -10,14 +10,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>training-core</artifactId>
+    <artifactId>training-api</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>org.dzmitry.kapachou.microservices</groupId>
-            <artifactId>training-api</artifactId>
+            <artifactId>lessons-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
     </dependencies>
 
 

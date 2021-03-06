@@ -1,6 +1,6 @@
 package org.dzmitry.lessons.webui.api;
 
-import org.dzmitry.lessons.webui.dto.LessonDto;
+import org.dzmitry.lessons.dto.LessonDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 

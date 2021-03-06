@@ -1,4 +1,4 @@
-package org.dzmitry.lessons.webui.dto;
+package org.dzmitry.lessons.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

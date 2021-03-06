@@ -2,9 +2,8 @@ package org.dzmitry.lessons.core.webui.api;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.dzmitry.lessons.dto.LessonDto;
 import org.dzmitry.lessons.webui.api.LessonsApi;
-import org.dzmitry.lessons.webui.dto.LessonDto;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.PostConstruct;

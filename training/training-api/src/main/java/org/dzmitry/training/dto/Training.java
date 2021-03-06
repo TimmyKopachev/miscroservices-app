@@ -1,10 +1,10 @@
-package org.dzmitry.training.webui.dto;
+package org.dzmitry.training.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.dzmitry.lessons.webui.dto.LessonDto;
+import org.dzmitry.lessons.dto.LessonDto;
 
 import java.util.List;
 
