@@ -1,0 +1,21 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /lessons-service/api
+
+spring:
+  application:
+    name: lessons-service
+
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: info,health,beans
+
+eureka:
+  client:
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8766/eureka
